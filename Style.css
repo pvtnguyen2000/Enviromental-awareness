@@ -28,3 +28,101 @@
   text-align: center;
   padding-top: 40px;
 }
+.banner-button {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.banner-button a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  margin-right: 20px;
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 1;
+  transition: color 1s;
+}
+
+.banner-button a span {
+  width: 0%;
+  height: 100%;
+  background-color: aliceblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+.banner-button a:hover span {
+  width: 100%;
+}
+
+.banner-button a:hover {
+  color: black;
+}
+
+.importance-of-awareness h1 {
+  color: #000000;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.importance-of-awareness h2 {
+  color: #380191;
+  text-align: center;
+  margin-left: auto;
+  padding-bottom: 30px;
+}
+.importance-of-awareness p {
+  background: linear-gradient(#ffffff, #0022ff2a);
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.major-en-problem h1 {
+  text-align: left;
+  margin-left: 20px;
+}
+.major-en-problem p {
+  background: linear-gradient(#ffffff, #0022ff2a);
+  width: 80%;
+  margin: auto;
+}
+.multi-section {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.multi-section h1 {
+  color: #380191;
+}
+.multi-section img {
+  height: 140px;
+}
+.impact-on-enviroment {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.impact-on-enviroment img {
+  width: 400px;
+  padding-top: 50px;
+}
+
+footer {
+  padding-top: 100px;
+}
