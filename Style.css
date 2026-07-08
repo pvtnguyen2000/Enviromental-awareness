@@ -126,3 +126,32 @@
 footer {
   padding-top: 100px;
 }
+.intro_member {
+  text-align: center;
+
+  background-color: #111844;
+  color: aliceblue;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+}
+.intro_member h2 {
+  margin: 50px;
+}
+.members_grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  background-color: red;
+  justify-items: center;
+}
+.member {
+  background-color: #2b46fc;
+  width: 400px;
+  height: 600px;
+  text-align: center;
+}
+.member img {
+  padding-top: 100px;
+  width: 50%;
+}
